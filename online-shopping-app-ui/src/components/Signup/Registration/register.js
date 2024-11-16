@@ -35,7 +35,7 @@ export const Register=()=> {
       <div className="row justify-content-center">
         <div className="col-md-6 col-sm-8 col-10">
           <form onSubmit={handleSubmit}>
-            <h2 className="text-center">Register</h2>
+            <h2 className="text-center">Register as a new user</h2>
             {error && <div className="alert alert-danger">{error}</div>}
             <div className="form-group">
               <label>Username</label>
